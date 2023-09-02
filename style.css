@@ -65,6 +65,43 @@ nav li {
     margin-top: 20px;
 }
 
+/**main style*/
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/**teams style*/
+.teams-contain {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.teams-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.teams-content {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.teams-title {
+    font-size: 45px;
+}
+
+.teams-title .quick-list {
+    color: #727272;
+    font-weight: 400px;
+}
+
+.teams-title .feature {
+    color: #FF900E;
+}
+
 /**responsive medeia quary*/
 
 @media screen and (max-width: 576px) {
