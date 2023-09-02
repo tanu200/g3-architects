@@ -1,0 +1,89 @@
+/*work sans font*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*header style**/
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav li {
+    margin-left: 40px;
+    list-style: none;
+    font-size: 1rem;
+
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.banner-contant {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    padding: 15px 20px;
+    color: aliceblue;
+
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/**responsive medeia quary*/
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/**tablet*/
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 40px;
+    }
+}
